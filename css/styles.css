@@ -1,32 +1,101 @@
-html {
+
+body {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #35589A;
+  color: #EEF2FF;
+
 }
 
 nav {
   font-family: 'Spline Sans', sans-serif;
   text-align: right;
+  position: fixed;
+  width: 90%;
 }
 
 h1 {
+  margin: 50px auto 0 auto;
   font-family: 'Lobster Two', cursive;
+  font-size: 6.625rem;
 }
 
 h2 {
   font-family: 'Spline Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 p {
-  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EEF2FF 6px;
+  border-bottom: none;
+  width: 4%;
+  margin-top: 50px;
+}
+
+#home {
+  padding-top: 100px;
+}
+
+#about-me {
+  width: 50%;
+  margin: auto;
+}
+
+#skills {
+  margin: auto;
+  width: 50%;
+}
+
+#projects {
+  width: 40%;
+  margin: auto;
+}
+
+#certificates {
+  width: 50%;
+  margin: auto;
+}
+
+#experience {
+  width: 50%;
+  margin: auto;
+}
+
+#contact {
+  width: 50%;
+  margin: auto;
 }
 
 .light-bg {
   background-color: #EEF2FF;
   color: #35589A;
+  margin-top: 100px;
+  padding: 50px 0;
 }
 
-.dark-bg {
-  background-color: #35589A;
-  color: #EEF2FF;
+.light-bg hr {
+  border-color: #35589A;
+}
+
+.skill-container{
+  display: flex;
+}
+
+.skill-col {
+  flex: 33.33%;
+}
+
+.certificates-container {
+  display: flex;
+}
+
+.certificates-col {
+  flex: 50%;
 }
