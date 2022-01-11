@@ -1,0 +1,32 @@
+html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav {
+  font-family: 'Spline Sans', sans-serif;
+  text-align: right;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+}
+
+h2 {
+  font-family: 'Spline Sans', sans-serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+.light-bg {
+  background-color: #EEF2FF;
+  color: #35589A;
+}
+
+.dark-bg {
+  background-color: #35589A;
+  color: #EEF2FF;
+}
