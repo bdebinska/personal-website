@@ -9,12 +9,13 @@ body {
 
 }
 
-nav {
+/*nav {
   font-family: 'Spline Sans', sans-serif;
   text-align: right;
   position: fixed;
-  width: 90%;
-}
+  width: 95%;
+  padding-top: 50px;
+}*/
 
 h1 {
   margin: 50px auto 0 auto;
@@ -28,6 +29,10 @@ h2 {
   font-weight: normal;
 }
 
+h3 {
+  font-family: 'Spline Sans', sans-serif;
+}
+
 p {
   line-height: 2;
 }
@@ -37,6 +42,15 @@ hr {
   border-bottom: none;
   width: 4%;
   margin-top: 50px;
+}
+a {
+  font-family: 'Spline Sans', sans-serif;
+  color: #EEF2FF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
 }
 
 #home {
@@ -84,18 +98,32 @@ hr {
   border-color: #35589A;
 }
 
-.skill-container{
+.contact-link {
+  color: #35589A;
+}
+
+
+.container {
   display: flex;
 }
 
-.skill-col {
+.column-33 {
   flex: 33.33%;
 }
 
-.certificates-container {
-  display: flex;
+.column-50 {
+  flex: 50%;
 }
 
-.certificates-col {
-  flex: 50%;
+.profile-img {
+  width: 25%;
+}
+
+.icon {
+  width: 50px;
+  margin-right: 50px;
+}
+
+.img {
+  width: 80%;
 }
