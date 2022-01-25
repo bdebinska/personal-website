@@ -6,7 +6,7 @@ body {
   font-family: 'Merriweather', serif;
   background-color: #35589A;
   color: #EEF2FF;
-
+  box-sizing: border-box;
 }
 
 /*nav {
@@ -63,8 +63,8 @@ a:hover {
 }
 
 #skills {
-  margin: auto;
   width: 50%;
+  margin: auto;
 }
 
 #projects {
@@ -102,13 +102,8 @@ a:hover {
   color: #35589A;
 }
 
-
-.container {
+.main-container {
   display: flex;
-}
-
-.column-33 {
-  flex: 33.33%;
 }
 
 .column-50 {
